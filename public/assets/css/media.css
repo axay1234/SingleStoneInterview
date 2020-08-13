@@ -1,0 +1,41 @@
+/*media responsive*/
+@media (max-width: 1200px){
+	.wrapper {max-width: 800px;}	
+	.bannerText {width: 80%}
+	.boxWrap{flex-wrap:wrap;}
+	.itemBox {width: 46%;}
+	
+}
+@media (max-width: 1024px)
+{
+	.bannerContent {bottom: 13%;}
+	.bannerText h1{font-size:45px;	line-height: 42px;padding: 20px 0;}
+	.bannerText p{font-size: 16px;	line-height: 22px;}
+	
+}
+@media (max-width:999px) 
+{
+	.wrapper {width:700px;}
+	.bannerText {width: 74%;}
+	.bannerText h1{font-size: 40px;	line-height: 42px;padding: 15px 0;}
+}
+@media all and (max-width:767px)
+{
+	.wrapper{width:85%}
+	.bannerText{width:100%}
+	.itemBox{width: 45%;}
+}
+@media all and (max-width:599px)
+{
+	.wrapper{width:85%}
+	.itemBox{width: 100%; position: relative;}
+	.servicesWrap [class^="item-box"]:nth-child(n+2){margin-top: 30px;}
+	.bannerImg img{height:400px; object-fit: cover;}
+	.bannerContent {bottom: 10%;}
+	.bannerText h3{font-size: 20px;}
+	.bannerText h1{font-size: 30px;	line-height: 33px;padding: 10px 0;}
+	.bannerText p{font-size: 16px;	line-height: 22px;padding-bottom: 20px;width:80%}
+	.btn, input[type="submit"].btn {font-size: 14px;padding: 10px 20px;} 	
+	
+}
+
